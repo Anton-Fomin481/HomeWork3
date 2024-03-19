@@ -157,13 +157,9 @@ body {
   padding: 120px 0;
 }
 .visually-hidden {
-  position: absolute;
-  left: -9999px;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
+  display: none;
 }
-.spisok2 {
+.spis {
   display: flex;
   gap: 24px;
 }

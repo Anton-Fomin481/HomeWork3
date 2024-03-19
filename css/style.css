@@ -28,6 +28,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .main-logo-part2 {
   color: #2e2f42;
@@ -38,6 +39,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .navigation:hover {
   color: #404bbf;
@@ -125,7 +127,7 @@ body {
   display: flex;
   width: 1158px;
   margin: 0;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
 }
 .nav {
   display: flex;
@@ -134,12 +136,12 @@ body {
 .main-two {
   margin-right: 76px;
 }
-.ul {
+.spisok {
   display: flex;
   margin-right: 40px;
 }
 .li-one {
-  padding: 24px 0 24px;
+  padding: 24px 0;
 }
 .ul-adrs {
   display: flex;

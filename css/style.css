@@ -3,7 +3,7 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-.order-button {
+.order-btn {
   font-weight: 500;
   line-height: 1.5;
   background-color: #4d5ae5;
@@ -20,10 +20,10 @@ body {
   border: none;
   border-radius: 4px;
 }
-.order-button:hover {
+.order-btn:hover {
   background-color: #404bbf;
 }
-.order-button:focus {
+.order-btn:focus {
   background-color: #404bbf;
 }
 .main-logo {

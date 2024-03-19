@@ -153,3 +153,21 @@ body {
   display: flex;
   gap: 40px;
 }
+.section-two {
+  padding: 120px 0;
+}
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.spisok2 {
+  display: flex;
+  gap: 24px;
+}
+.kok {
+  width: calc((100% - 72px) / 4);
+  margin-bottom: 8px;
+}

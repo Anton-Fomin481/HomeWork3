@@ -139,6 +139,7 @@ body {
 .spisok {
   display: flex;
   margin-right: 40px;
+  gap: 40px;
 }
 .ul-adrs {
   display: flex;

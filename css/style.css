@@ -126,7 +126,7 @@ body {
 .container {
   display: flex;
   width: 1158px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 15px;
 }
 .nav {
@@ -139,9 +139,6 @@ body {
 .spisok {
   display: flex;
   margin-right: 40px;
-}
-.li-one {
-  padding: 24px 0;
 }
 .ul-adrs {
   display: flex;

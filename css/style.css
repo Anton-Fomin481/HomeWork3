@@ -114,8 +114,6 @@ body {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
-  padding-left: 0;
-  margin: 0;
 }
 .footer {
   background-color: #2e2f42;
@@ -176,16 +174,18 @@ body {
 .spis {
   display: flex;
   gap: 24px;
+  padding-left: 0;
+  margin: 0;
 }
 .kok {
   width: calc((100% - 72px) / 4);
   margin-bottom: 8px;
-  padding-left: 0;
-  margin: 0;
 }
 .shawa {
   display: flex;
   gap: 24px;
+  padding-left: 0;
+  margin: 0;
 }
 .list-three-div {
   padding: 32px 0;
@@ -199,11 +199,11 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  padding-left: 0;
+  margin: 0;
 }
 .polar {
   width: calc((100% - 48px) / 3);
-  padding-left: 0;
-  margin: 0;
 }
 .list-four-div {
   padding: 32px 16px;

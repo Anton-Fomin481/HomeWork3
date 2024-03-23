@@ -40,12 +40,14 @@ body {
   color: #2e2f42;
 }
 .navigation {
+  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
 }
 .navigation:hover {
   color: #404bbf;
@@ -57,6 +59,7 @@ body {
   font-style: normal;
 }
 .mail {
+  text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -79,6 +82,8 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  margin: auto;
+  margin-bottom: 48px;
 }
 .strategy {
   font-weight: 500;
@@ -88,6 +93,7 @@ body {
   color: #2e2f42;
   text-align: center;
   margin-bottom: 8px;
+  margin: auto;
 }
 .our-goal {
   font-size: 16px;
@@ -95,6 +101,8 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  margin: auto;
+  margin-bottom: 48px;
 }
 .section-three {
   background-color: #f4f4fd;
@@ -108,7 +116,7 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-  margin-bottom: 72px;
+  margin: auto;
 }
 .one-list {
   background-color: #ffffff;
@@ -142,6 +150,8 @@ body {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
+  height: 72px;
+  width: 1440px;
 }
 
 .section-three-div {
@@ -153,16 +163,21 @@ body {
 .nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 .main-two {
   margin-right: 76px;
 }
 .spisok {
+  list-style-type: none;
   display: flex;
   margin-right: 40px;
   gap: 40px;
+  margin: auto;
+  margin-bottom: 48px;
 }
 .ul-adrs {
+  list-style-type: none;
   display: flex;
   gap: 40px;
 }
@@ -173,6 +188,7 @@ body {
   display: none;
 }
 .spis {
+  list-style-type: none;
   display: flex;
   gap: 24px;
   padding-left: 0;
@@ -183,6 +199,7 @@ body {
   margin-bottom: 8px;
 }
 .shawa {
+  list-style-type: none;
   display: flex;
   gap: 24px;
   padding-left: 0;
@@ -196,6 +213,7 @@ body {
   padding-bottom: 120px;
 }
 .born {
+  list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -235,6 +253,7 @@ body {
 }
 .another-container {
   display: flex;
+  align-items: center;
 }
 .img {
   display: block;
